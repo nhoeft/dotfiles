@@ -1,0 +1,18 @@
+[user]
+	name = Niko
+	email = nikolas.hoeft@yahoo.de
+[color]
+	ui = true
+
+[alias]
+    co = checkout
+    cob = checkout -b
+    c = commit
+    p = push
+    b = branch
+    ba = branch -a
+    bd = branch -d
+    bD = branch -D
+    d = diff
+    dc = diff --cached
+    browse = "!f() { REPO_URL=$(git config remote.origin.url); open ${REPO_URL%%.git}; }; f"
